@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TaskMaster - To-Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>📝 TaskMaster</h1>
+
+<p>Organize your daily tasks efficiently</p>
+
+</header>
+
+<div class="task-input">
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter a new task..."
+>
+
+<button id="addBtn">
+
+Add Task
+
+</button>
+
+</div>
+
+<div class="search-box">
+
+<input
+type="text"
+id="searchTask"
+placeholder="Search tasks..."
+>
+
+</div>
+
+<div class="filters">
+
+<button id="allBtn">
+
+All
+
+</button>
+
+<button id="pendingBtn">
+
+Pending
+
+</button>
+
+<button id="completedBtn">
+
+Completed
+
+</button>
+
+<button id="clearBtn">
+
+Clear All
+
+</button>
+
+</div>
+
+<div class="status">
+
+<div class="status-card">
+
+<h2 id="totalTasks">
+
+0
+
+</h2>
+
+<p>Total Tasks</p>
+
+</div>
+
+<div class="status-card">
+
+<h2 id="completedTasks">
+
+0
+
+</h2>
+
+<p>Completed</p>
+
+</div>
+
+<div class="status-card">
+
+<h2 id="pendingTasks">
+
+0
+
+</h2>
+
+<p>Pending</p>
+
+</div>
+
+</div>
+
+<ul id="taskList">
+
+</ul>
+
+<footer>
+
+<p>© 2026 TaskMaster | All Rights Reserved.</p>
+
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
